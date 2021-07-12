@@ -1,0 +1,43 @@
+/* CSS files add styling rules to your content */
+
+body {
+  margin: 2em;
+  background-color: #ffff;
+}
+
+body .parent {
+  display: grid;
+  grid-template-columns: minmax(50px, 15%) auto;
+  place-items: center;
+}
+
+.left .left-main{
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 0 40px;
+}
+
+.left-main .link {
+  margin-top: 40px;
+}
+.right {
+  font-family: Helvetica;
+  font-size: 25px;
+  display: flex;
+  padding: 100px 100px 40px 40px;*/
+  place-items: center;
+  
+}
+
+.right .main-about{
+ padding: 0 0 0 40px;
+}
+
+.main-about h2 {
+  color: #2F5D62
+}
+
+.icon{
+  width:16rem;
+  padding: 0 0 0 40px;
+}
